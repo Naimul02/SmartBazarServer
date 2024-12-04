@@ -21,7 +21,7 @@ const connectDB = async () => {
     console.error("Failed to connect to MongoDB", err);
   }
 };
-const db = client.db("SmartBazar");
+const db = client.db("SmartbazarDB");
 // run().catch(console.dir);
 module.exports = {
   db,
